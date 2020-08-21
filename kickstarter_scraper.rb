@@ -1,5 +1,8 @@
-# require libraries/modules here
+require 'pry'
+require 'Nokogiri'
+require 'rspec'
 
 def create_project_hash
-  # write your code here
+  attr_accessor :image_link, :description, :location, :percent_funded
+  
 end
